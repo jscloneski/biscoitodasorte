@@ -21,7 +21,7 @@ main {
 body {
     background-size: 400% 400%;
     background-image: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
-    animation: mygradient 8s ease infinite;
+    animation: mygradient 6s ease infinite;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -39,6 +39,11 @@ body {
     }
 }
 
+.hide {
+    display: none;
+}
+
+/* Screen 1*/
 h1 {
     color: #34355B;
     font-family:'Montserrat', sans-serif;
@@ -58,3 +63,53 @@ button {
     cursor: pointer;
     outline: revert;
 }
+
+/* Screen 2*/
+
+h1 {
+    color: #34355B;
+    font-family:'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.7rem;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2.7rem;
+
+    padding: 1.0rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+    animation: moveToRight 1.0s ease-in-out;
+    animation-delay: 0ms;
+    }
+
+@keyframes moveToRight {
+    0% {
+        transform: translateY(15rem);
+    }
+    100% {
+        transform: translateY(0rem);
+        height: auto;
+    }
+    }
+
+svg {
+    margin-bottom: 1.7rem;
+}
+
+button {
+    padding: 1.6rem;
+    background: #FF9500;
+    border-radius: 4px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
