@@ -64,6 +64,20 @@ button {
     outline: revert;
 }
 
+.screen1 button:hover {
+    cursor: pointer;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-0.3rem); }
+    20%, 40%, 60%, 80% { transform: translateX(0.3rem); }
+    100% { transform: translateX(0); }
+}
+
+
 /* Screen 2*/
 
 h1 {
@@ -73,7 +87,7 @@ h1 {
     margin-bottom: 1.7rem;
 }
 
-p {
+.screen2 p {
     font-family: 'Dancing Script', cursive;
     font-size: 2.4rem;
     line-height: 2.9rem;
@@ -85,19 +99,19 @@ p {
     background: #E4EDF1;
     box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
 
-    animation: moveToRight 1.0s ease-in-out;
-    animation-delay: 0ms;
+    animation-name: toFadeIn;
+    animation-duration: 1s;
     }
 
-@keyframes moveToRight {
+@keyframes toFadeIn {
     0% {
-        transform: translateY(15rem);
+    transform: translateY(150px) scale(0.1);
     }
+
     100% {
-        transform: translateY(0rem);
-        height: auto;
+    transform: translateY(0px) scale(1);
     }
-    }
+}
 
 svg {
     margin-bottom: 1.7rem;
@@ -111,5 +125,9 @@ svg {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.5rem;
     color: #FFFFFF;
+}
+
+.screen2 button:hover {
+    background-color: #ffa82e;
 }
 
