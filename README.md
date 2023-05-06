@@ -1,18 +1,25 @@
 
-# Biscoito da Sorte
+# Biscoito da Sorte 🥠
 
 
-## Funcionalidade
+## Funcionalidade 
 
 Após alguns cliques, o biscoito da sorte é aberto e uma "frase de sorte" aparece na tela.
-## Deploy
+
+🥠 Step 1:
+![image](https://github.com/jscloneski/biscoitodasorte/blob/main/step%201.jpg)
+
+🥠 Step 2:
+![image](https://github.com/jscloneski/biscoitodasorte/blob/main/step%202.jpg)
+
+## Deploy 
 
  <a href="https://biscoitodasorte1.netlify.app/" target="_blank">Acesse aqui, e teste a aplicação!</a>
 
 
 
 
-## Aprendizados
+## Aprendizados 
 
 - Estrutura de dados HTML
 - Animações com CSS
@@ -21,11 +28,11 @@ Após alguns cliques, o biscoito da sorte é aberto e uma "frase de sorte" apare
 - Biblioteca JS Math()
 - Funções *callback*
 - Arrays
-## Stack utilizada
+## Stack utilizada 
 
 JavaScript | HTML | CSS
 
-## Contato
+## Contato 📩
 
 <!--
 🔗 Linkedin and email hyperlink:
